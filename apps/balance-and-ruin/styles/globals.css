@@ -57,7 +57,10 @@ div#__next > div {
 @layer base {
   @font-face {
     font-family: "Final Fantasy 3/6 Font";
-    src: url(/final_fantasy_36_font.ttf);
+    src: url(/final_fantasy_36_font.ttf) format('truetype'),
+	 url(/final_fantasy_36_font.woff2) format('woff2'),
+         url(/final_fantasy_36_font.woff) format('woff');
+}
   }
 
   @font-face {
